@@ -1,0 +1,5 @@
+---
+# vars file for test
+pkg_list:
+  - apache2
+  - firewalld

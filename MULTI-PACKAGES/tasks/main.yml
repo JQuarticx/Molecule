@@ -1,0 +1,8 @@
+---
+# tasks file for test
+- name: install play
+  apt:
+    name: "{{pkg_list}}"
+    state: present
+    update_cache: "yes"
+  become: true
